@@ -89,14 +89,14 @@ const Signup = () => {
               </form>
 
               <button className="w-full border border-zinc-700 text-white py-4 rounded-xl flex justify-center items-center gap-3 hover:bg-zinc-800">
-                <i className="ri-google-fill text-xl"></i>
+                <link className="ri-google-fill text-xl"></link>
                 Continue with Google
               </button>
 
               <p className="text-center text-zinc-400">
                 have an account?
                 <span className="text-orange-500 cursor-pointer ml-2">
-                  <a href="/">Log in</a>
+                  <link href="/">Log in</link>
                 </span>
               </p>
             </div>
